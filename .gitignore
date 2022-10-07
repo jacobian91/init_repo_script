@@ -1,0 +1,5 @@
+# Generated items by the script
+.vscode 
+.pylintrc
+poetry.lock
+pyproject.toml
