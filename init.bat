@@ -1,5 +1,5 @@
 (
-rem the parenthesis form a "block" which is loaded into memory so we can deal with deleting while running easier
+@REM The parenthesis form a "block" which is loaded into memory so we can deal with deleting while running easier
 
 @REM Create Text Files
 echo off
@@ -21,5 +21,7 @@ poetry run pylint --generate-rcfile > .pylintrc
 
 @REM Delete this script
 del init.bat
+
+@REM Pause for effect
 pause
 )
