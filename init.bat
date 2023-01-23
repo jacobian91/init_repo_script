@@ -11,6 +11,7 @@ mkdir .vscode
 echo {^"code-runner.runInTerminal^": true} > ./.vscode/settings.json
 
 @REM Setup git
+git config --global init.defaultBranch main @REM Change to your preference
 git init
 git config core.excludesFile ./.local_gitignore
 
